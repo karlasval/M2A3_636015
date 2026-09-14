@@ -1,0 +1,90 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <title>Mi Sitio</title> 
+
+    <style> 
+        body { 
+            font-family: system-ui, sans-serif; 
+            max-width: 900px; 
+            margin: 2rem auto; 
+            line-height: 1.5; 
+        } 
+
+        .header, .menu, .content, .sidebar, .post, .footer { 
+            padding: 12px; 
+            border: 1px solid #ddd; 
+            margin-bottom: 12px; 
+        } 
+
+        .menu a { 
+            margin-right: 8px; 
+        } 
+
+        .label { 
+            font-weight: bold; 
+        } 
+
+        .date { 
+            color: #666; 
+        } 
+    </style> 
+</head> 
+
+<body> 
+
+    <header class="header"> 
+        <h1>Mi Blog Personal</h1>
+
+        <nav class="menu"> 
+            <a href="#">Inicio</a> 
+            <a href="#">Artículos</a> 
+            <a href="#">Contacto</a> 
+        </nav> 
+    </header> 
+
+    <main class="content"> 
+
+        <article class="post"> 
+            <h2>Novedades de HTML5</h2>
+
+            <div class="date"><time	datetime="2024-12-20">20/12/2024</time>.</div> 
+
+            <p>HTML5 trae nuevas etiquetas <em>muy interesantes</em> para mejorar la web.</p> 
+
+            <p><q>a uniquely portable magic</q> - Stephen King</p>
+
+            <p>
+                La <span class="label">URL</span>: 
+                <a href="https://www.example.com">Visitar Example</a>
+            </p> 
+
+            <p>
+                Visita a la <abbr title="World Health Organization">WHO</abbr> para más información.
+            </p> 
+        </article> 
+
+    </main> 
+
+    <aside class="sidebar"> 
+        <div class="box"> 
+            <div class="label">Acerca de</div> 
+            <p>Desarrollador web y escritor ocasional.</p> 
+        </div> 
+
+        <div class="box"> 
+            <div class="label">Contacto</div> 
+            <address>
+                <span class="label">Email:</span> contacto@ejemplo.com
+            </address>
+        </div> 
+    </aside> 
+
+    <footer class="footer"> 
+        <div>© 2025 Mi Sitio</div> 
+        <div>Hecho con <em>café</em> y paciencia.</div> 
+    </footer> 
+
+</body> 
+</html>
